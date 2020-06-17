@@ -1,0 +1,1182 @@
+@import url("font.css");
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+header{
+	background-color: #e9e9e9;
+	font-weight: bold;
+	position: absolute;
+}
+
+#Logo{
+	background-color: #e9e9e9;
+	position: fixed;
+	width: 100%;
+}
+
+#Logo .wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+#Logo .logo{
+	height: 100%;
+	margin: auto 10%;
+}
+
+#Logo .logo img{
+	width: 15%;
+}
+
+#Logo .wrap .A1{
+	width: 50%;
+}
+
+#Logo .wrap .A1 .menu{
+	margin: 20px 25%;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+#Logo .wrap .A1 .menu a{
+	text-decoration: none;
+	color: #191919;
+	font-size: 110%;
+	font-family: MM;
+	transition-duration: 0.3s;
+	transition-property: color;
+}
+
+#Logo .wrap .A1 .menu li .C1{
+	color: #10c9c3;
+}
+
+#Logo .wrap .A1 .menu a:hover{
+	color: #10c9c3;
+}
+
+
+
+#Personal_Area{
+	padding-top: 50px;
+	display: flex;
+	width: 70%;
+	margin: 0 15%;
+}
+
+#Personal_Area .people{
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    color: #272727;
+    margin: 20px 2.5%;
+}
+
+#Personal_Area .people .photo{
+    padding: 30px 30px;
+	background: #ccc;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+}
+
+#Personal_Area .people .photo .img{
+	width: 100%;
+}
+
+#Personal_Area .people .photo .img img{
+	width: 100%;
+	border-radius: 30px;
+}
+
+#Personal_Area .people .photo .login p{
+	font-size: 150%;
+	font-family: Roboto;
+	margin: 0;
+    margin-top: 30px;
+}
+
+#Personal_Area .people .database{
+    padding: 15px 20px;
+	background: #ccc;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	margin: 20px 0%;
+}
+
+#Personal_Area .people .database input[type='submit']{
+	font-size: 120%;
+	padding: 10px;
+	margin: 50px 40%;
+	border-radius: 150px;
+	color: #191919;
+	border: 2px solid #b7b7b7;
+	width: 90%;
+	cursor: pointer;
+	font-family: MM;
+	background: #f6f6f6;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 5%;
+	outline: none;
+}
+
+#Personal_Area .info{
+	background: #ccc;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+    padding: 30px 3%;
+    width: 70%;
+    color: #272727;
+    margin: 20px 2.5%
+}
+
+#Personal_Area .info .personal_data{
+	display: flex;
+}
+
+#Personal_Area .info .personal_data .info_login{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 20px;
+	margin: 0 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+	width: 50%;
+}
+
+#Personal_Area .info .personal_data .info_login .row{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 10px 30px;
+	margin: 0 30px;
+	color: #272727;
+	font-size: 100%;
+	font-family: Roboto;
+}
+
+#Personal_Area .info .personal_data .Product_Edit_Buttons{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 41px 30px;
+	margin: 0 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	height: 100%; 
+}
+
+#Personal_Area .info .personal_data .Product_Edit_Buttons a{
+	font-size: 120%;
+	padding: 10px;
+	margin: 50px 40%;
+	border-radius: 30px;
+	color: #191919;
+	border: 2px solid #b7b7b7;
+	width: 30%;
+	cursor: pointer;
+	font-family: MM;
+	background: #f6f6f6;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 5%;
+}
+
+#Personal_Area .info .personal_data .Product_Edit_Buttons .button{
+	cursor: pointer;
+	height: 50px;
+}
+
+#Personal_Area .info .personal_data .Product_Edit_Buttons .button img{
+	height: 100%;
+}
+
+#Personal_Area .info .personal_data .block_update {
+	height: 100%;
+	width: 50%;
+}
+
+#Personal_Area .info .personal_data .block_update .Product_Edit_Buttons{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 41px 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	margin: 0;
+}
+
+#Personal_Area .info .personal_data .block_update .Product_Edit_Buttons .block{
+
+	height: 50px;
+}
+
+#Personal_Area .info .personal_data .block_update .Product_Edit_Buttons button{
+	font-size: 120%;
+	padding: 10px;
+	border-radius: 30px;
+	color: #191919;
+	border: 2px solid #b7b7b7;
+	width: 30%;
+	cursor: pointer;
+	font-family: MM;
+	background: #f6f6f6;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 10%;
+	outline: none;
+	padding: 15px 15px;
+	height: 100%;
+}
+
+#Personal_Area .info .personal_data .block_update .Product_Edit_Buttons img{
+	height: 100%;
+}
+
+#Personal_Area .info .personal_data .block_update .update_user_info{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 41px 30px;
+	margin: 0 0px;
+	margin-top: 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	display: none;
+}
+
+#Personal_Area .info .personal_data .block_update .update_user_info input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .personal_data .block_update .update_user_info textarea{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .personal_data .block_update .update_user_info input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .personal_data .block_update .update_photo_user{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 41px 30px;
+	margin: 0 0px;
+	margin-top: 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	display: none;
+}
+
+#Personal_Area .info .personal_data .block_update .update_photo_user input[type='file']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .personal_data .block_update .update_photo_user input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .personal_data .info_login p{
+	margin: 10px 0;
+	font-family: Roboto;
+	font-size: 120%;
+	
+}
+
+#Personal_Area .info .personal_data .info_login .row{
+	display: flex;
+	justify-content: space-between;
+}
+
+#Personal_Area .info .personal_data .update{
+	padding: 30px;
+	color: #272727;
+	font-size: 110%;
+	font-family: Roboto;
+}
+
+#Personal_Area .info .personal_data .update input[type="submit"]{
+	background: #10c9c3;
+	border: none;
+	padding: 20px 30px;
+	font-size: 100%;
+	color: #fff;
+	font-family: MM;
+	outline: none;
+	cursor: pointer;
+	border-radius: 30px;
+	width: 20%;
+    margin: 0 auto;
+    margin-left: 80%;
+    text-align: center;
+}
+
+#Personal_Area .info .personal_data .update input[type="submit"]{
+	
+}
+
+#Personal_Area .info .table{
+	width: 100%;
+	margin: 30px 0%;
+	background: #e9e9e9;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+}
+
+#Personal_Area .info .table .Product_Table{
+	margin: 30px;
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 20px;
+}
+
+#Personal_Area .info .table .Product_Table table{
+	width: 100%;
+	background: #b7b7b7;
+}
+
+#Personal_Area .info .table .Product_Table .heading{
+	background: #562f2f;
+	color: #fff;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+}
+
+#Personal_Area .info .table .Product_Table td{
+	color: #fff;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	background: #283054
+}
+
+#Personal_Area .info .table .Table_Filters{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory{
+	background: #e9e9e9;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px;
+	padding: 20px;
+	width: 25%;
+	height: 100%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory table{
+	width: 100%;
+	background: #b7b7b7;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .heading{
+	background: #562f2f;
+	color: #fff;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory td{
+	color: #fff;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	background: #283054
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Button_Kategory{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Button_Kategory button{
+	color: #191919;
+	border: 2px solid #b7b7b7;
+	width: 30%;
+	cursor: pointer;
+	background: #f6f6f6;
+	cursor: pointer;
+	border-radius: 30px;
+	outline: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Button_Kategory img{
+	width: 50%;
+	margin-top: 3px;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create{
+	display: none; 
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create .red{
+	color: #562f2f;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create input[type='file']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	padding:10px 0px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Create input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Delete{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Delete p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Delete select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Delete select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Delete input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Kategory_Update input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create{
+	display: none; 
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create .red{
+	color: #562f2f;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create input[type='file']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	padding:10px 0px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Create input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Delete{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Delete p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Delete select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Delete select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Delete input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Proizvoditel_Update input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create{
+	display: none; 
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create .red{
+	color: #562f2f;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create input[type='file']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	padding:10px 0px;
+	outline: none;
+	width: 80%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Create input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Delete{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Delete p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Delete select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Delete select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Delete input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update{
+	display: none;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update p{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update input[type='submit']{
+	margin: 0 20%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	background: #f6f6f6;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	cursor: pointer;
+	width: 60%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update select option{
+	color: #283054;
+	font-size: 100%;
+	font-family: MM;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update select{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 90%;
+}
+
+#Personal_Area .info .table .Table_Filters .Table_Kategory .Form_Country_Update input[type='text']{
+	margin: 10px 5%;
+	font-family: MM;
+	color: #171717;
+	font-size: 100%;
+	border: 2px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 10px;
+	outline: none;
+	width: 80%;
+}
+
+
+
+#content{
+	background: #f5f5f5;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+#content .info {
+	margin: 0px 10%;
+	width: 80%;
+	display:flex;
+	justify-content: space-between;
+
+}
+
+#content .info .information{
+	width: 40%;
+	margin-right: 5%;
+}
+
+#content .info .information h1{
+	font-family: MM;
+	margin: 0;
+}
+
+#content .info .information p{
+	font-family: NSR;
+	color: #898989;
+}
+
+#content .info .information span{
+	margin: 0;
+	font-family: NSR;
+	font-weight: bold;
+	color: #171717;
+}
+
+#content .info .register{
+	width: 60%;
+	margin: 10% 20%;
+}
+
+#content .info .register form{
+	margin: 0;
+}
+
+#content .info .register .wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+#content .info .register input[type = "text"]{
+	width: 95%;
+	border: 3px solid #b7b7b7;
+	padding:15px 2.5%;
+	color: #787878;
+	margin-bottom: 20px;
+	outline: none;
+	border-radius: 30px;
+	font-size: 120%;
+}
+
+#content .info .register input[type = "password"]{
+	width: 95%;
+	border: 3px solid #b7b7b7;
+	padding:15px 2.5%;
+	color: #787878;
+	margin-bottom: 20px;
+	outline: none;
+	border-radius: 30px;
+	font-size: 120%;
+}
+
+#content .info .register input[type = "submit"]{
+	font-family: MM;
+	color: #171717;
+	font-size: 120%;
+	background: #f6f6f6;
+	border: 3px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 20px;
+	outline: none;
+	cursor: pointer;
+	width: 40%;
+    margin: 0 10%;
+}
+
+#content .info .register a{
+	font-family: MM;
+	color: #171717;
+	font-size: 120%;
+	background: #f6f6f6;
+	border: 3px solid #b7b7b7;
+	border-radius: 30px;
+	padding:10px 20px;
+	outline: none;
+	cursor: pointer;
+	width: 40%;
+    margin: 0 10%;
+   	text-decoration: none;
+   	text-align: center;
+}
+
+
+
+footer{
+	background-color: #141414 ;
+	color: #bcbcbc;
+}
+
+footer .wrap{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10%;
+	padding: 75px 0;
+}
+
+footer .wrap .copyright{
+	width: 20%;
+}
+
+footer .wrap .copyright h3{
+	color: #fff;
+	margin-top: 0;
+	font-family: MM;
+}
+
+footer .wrap .copyright p{
+	font-family: NSR;
+}
+
+footer .wrap .Email .T1{
+	margin: 0;
+	font-family: NSR;
+}
+
+footer .wrap .Email .T2{
+	margin-top: 5px;
+	font-family: NSR;
+}
+
+footer .wrap .contact{
+	display: flex;
+}
+
+footer .wrap .contact ul{
+	margin-top: 0;
+	list-style: none;
+	padding: 0 20px;
+}
+
+footer .wrap .contact li{
+	margin-bottom: 2px;
+	font-family: NSR;
+}
+
+footer .wrap .messenger ul{
+	margin-top: 0;
+	list-style: none;
+	padding: 0 20px;
+}
+
+footer .wrap .messenger li{
+	margin-bottom: 2px;
+	font-family: NSR;
+}

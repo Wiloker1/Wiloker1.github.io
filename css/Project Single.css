@@ -1,0 +1,264 @@
+@import url("font.css");
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+header{
+	background-color: #fff;
+	font-weight: bold;
+}
+
+#Logo{
+	background-color: #e9e9e9;
+	position: fixed;
+	width: 100%;
+}
+
+#Logo .wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+#Logo .logo{
+	height: 100%;
+	margin: auto 10%;
+}
+
+#Logo .logo img{
+	width: 15%;
+}
+
+#Logo .wrap .A1{
+	width: 50%;
+}
+
+#Logo .wrap .A1 .menu{
+	margin: 20px 25%;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+#Logo .wrap .A1 .menu a{
+	text-decoration: none;
+	color: #191919;
+	font-size: 110%;
+	font-family: MM;
+	transition-duration: 0.3s;
+	transition-property: color;
+}
+
+#Logo .wrap .A1 .menu li .C1{
+	color: #10c9c3;
+}
+
+#Logo .wrap .A1 .menu a:hover{
+	color: #10c9c3;
+}
+
+#content{
+	background-color: #fff;
+	padding-top: 60px; 
+}
+
+#bunner{
+	background-color: #f6f6f6;
+}
+
+#bunner .wrap {
+	display: flex;
+}
+
+#bunner .wrap .bunner{
+	width: 50%;
+}
+
+#bunner .wrap .text{
+	width: 30%;
+}
+
+#bunner .wrap .bunner img{
+	width: 70%;
+	margin:15% 15%;
+}
+
+#bunner .wrap .text{
+	padding: 10% 5%;
+}
+
+#bunner .wrap .text h1{
+	font-family: MM;
+	color: #171717;
+	font-size: 230%;
+}
+
+#bunner .wrap .text p{
+	font-family: NSR;
+	font-weight: 400;
+	font-stretch: normal;
+	line-height: 1.6;
+	color: #787878;
+}
+
+#bunner .wrap .text input[type="submit"]{
+	background: #10c9c3;
+	border: 0px solid #000;
+	padding: 20px 30px;
+	font-size: 100%;
+	color: #fff;
+	font-family: MM;
+	outline: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+	transition-property: color, background;
+}
+
+#bunner .wrap .text input[type="submit"]:hover{
+  	color: #ccc;
+  	background: #0cb3ad; 
+}
+
+#specifications{
+	background-color: #e6e6e6;
+}
+
+#specifications .wrap{
+	display: flex;
+}
+
+#specifications .wrap .text{
+	width: 30%;
+	padding:5% 5%;
+	padding-left: 15%;
+}
+
+#specifications .wrap .text h2{
+	font-family: MM;
+	color: #171717;
+}
+
+#specifications .wrap .text ul{
+	padding: 0;
+	list-style: none;
+}
+
+#specifications .wrap .text li{
+	font-family: NSR;
+	font-weight: 400;
+	font-stretch: normal;
+	line-height: 1.6;
+	color: #787878;
+}
+
+#specifications .wrap .img{
+	width: 50%;
+}
+
+#specifications .wrap .img img{
+	margin: 0 20%;
+	width: 60%;
+}
+
+
+#overview{
+	background-color: #f6f6f6;
+}
+
+#overview .text{
+	padding: 5%;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+#overview .text h2{
+	font-family: MM;
+	color: #171717;
+}
+
+#overview .text p{
+	font-family: NSR;
+	font-weight: 400;
+	font-stretch: normal;
+	line-height: 1.6;
+	color: #787878;
+}
+
+
+footer{
+	background-color: #141414 ;
+	color: #bcbcbc;
+}
+
+footer .wrap{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10%;
+	padding: 75px 0;
+}
+
+footer .wrap .copyright{
+	width: 20%;
+}
+
+footer .wrap .copyright h3{
+	color: #fff;
+	margin-top: 0;
+	font-family: MM;
+}
+
+footer .wrap .copyright p{
+	font-family: NSR;
+}
+
+footer .wrap .Email .T1{
+	margin: 0;
+	font-family: NSR;
+}
+
+footer .wrap .Email .T2{
+	margin-top: 5px;
+	font-family: NSR;
+}
+
+footer .wrap .contact{
+	display: flex;
+}
+
+footer .wrap .contact ul{
+	margin-top: 0;
+	list-style: none;
+	padding: 0 20px;
+}
+
+footer .wrap .contact li{
+	margin-bottom: 2px;
+	font-family: NSR;
+}
+
+footer .wrap .messenger ul{
+	margin-top: 0;
+	list-style: none;
+	padding: 0 20px;
+}
+
+footer .wrap .messenger li{
+	margin-bottom: 2px;
+	font-family: NSR;
+}
+
+@media screen and (max-width: 1080px) {
+	#bunner .wrap .bunner img{
+		width: 70%;
+		margin:31% 15%;
+	}
+
+	#specifications .wrap .img img{
+		margin: 10% 20%;
+		width: 60%;
+	}
+}

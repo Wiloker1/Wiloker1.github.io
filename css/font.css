@@ -1,0 +1,9 @@
+@font-face{
+	font-family: MM;
+	src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
+}
+
+@font-face{
+	font-family: NSR;
+	src: url("../fonts/NunitoSans-Regular.woff") format("woff"), url("../fonts/NunitoSans-Regular.woff2") format("woff2");
+}
